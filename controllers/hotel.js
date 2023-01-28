@@ -3,7 +3,6 @@ import Room from "../models/Room.js";
 
 //CREATE
 export const createHotel = async (req, res, next) => {
-  // console.log(req.body);
   const newHotel = new Hotel(req.body);
   console.log(newHotel);
   try {
